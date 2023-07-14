@@ -1,16 +1,29 @@
 .header {
     @include centering;
+    flex-direction: column;
     width: 100%;
     height: 58px;
+    &__supply h4 {
+        font-size: 18px;
+    }
+    &__supply ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    &__supply li {
+        display: flex;
+        flex-direction: row;
+    }
     &__logo {
-        height: 30px;
+        height: 20px;
         margin-top: 10px;
-        }
+    }
     &__link {
         font-size: 1.3rem;
         position: absolute;
         color: $blackcolor;
-        text-decoration: none;
+        list-style-type: none;
         left: 30px;
         &:hover {
             color: $primarycolor;
