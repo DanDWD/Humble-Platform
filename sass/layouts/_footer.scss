@@ -1,6 +1,6 @@
 .footer {
-    color: $whitecolor;
-    background-color: #f6f6f6;
+    color: $tertiarycolor;
+    background-color: $backgroundGrey;
     width: 100%;
     padding: 15px 20px 25px 20px;
     @include tablette { 
@@ -15,11 +15,16 @@
 
 .footer-box {
     @include tablette {
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
         width: 100%;
     }
     @include desktop { 
         gap: 20px;
         display: flex;
+        flex-direction: row;
         justify-content: flex-end;
         width: 100%;
     }
