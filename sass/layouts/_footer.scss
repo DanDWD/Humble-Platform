@@ -1,6 +1,6 @@
 .footer {
     color: $whitecolor;
-    background-color: #353535;
+    background-color: #f6f6f6;
     width: 100%;
     padding: 15px 20px 25px 20px;
     @include tablette { 
@@ -11,22 +11,9 @@
         display: flex; 
         align-items: center;
     }
-    &__heading {
-        font-weight: lighter;
-        margin: 10px 0;
-        font-size: 18px;
-        @include tablette {
-            width: 15%;
-            text-align: center; 
-        } 
-        @include desktop {
-            width: 15%;
-            text-align: center; 
-        } 
-    }
 }
 
-.footer-nav {
+.footer-box {
     @include tablette {
         width: 100%;
     }
@@ -36,7 +23,7 @@
         justify-content: flex-end;
         width: 100%;
     }
-    &__link {
+    &__links {
         color: $whitecolor;
         margin: 5px 0;
         display: block;
