@@ -1,0 +1,102 @@
+/***animation of products appearing***/
+$anim-delay: 0.3s;
+
+
+.product-list {
+    animation: move-up 0.5s linear forwards;
+}
+
+@keyframes move-up {
+    0% {
+    opacity: 0%;
+    transform: translateY(20px);
+    }
+    100% {
+    opacity: 100%;
+    transform: translateY(0px);
+    }
+}
+
+.product {
+    @for $i from 1 through 4 {
+        &--#{$i} {
+            animation-delay: -0.2s + ($anim-delay * $i);
+        }
+
+    }
+}
+
+/*
+.product--1 {
+    animation-delay: 0.1s;
+}
+.product--2  {
+    animation-delay: 0.4s;
+}
+.product--3 {
+    animation-delay: 0.7s;
+}
+.product--4  {
+    animation-delay: 1s;
+} */
+
+/***animation of products appearing - END***/
+
+/***Text is pushed to the left***/
+.detail-product:hover {
+    padding-right: 80px;
+    transition-property: padding-right;
+    &:hover .selection-check { 
+        animation: move-left 0.6s cubic-bezier(0.250, 0.450, 0.450, 0.940) both;
+        visibility: visible;
+    }
+}
+
+@keyframes move-left {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-100px);
+    }
+}
+
+/***Text is pushed to the left - END***/
+
+/***check animation return***/
+.selection-check {
+    animation-duration: 0.6s;
+    animation: move-return 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    transition-duration: 0.6s; 
+}
+
+@keyframes move-return {
+    0% {
+        transform: translateX(-100px);
+        opacity: 100%;
+    }
+    99% {
+        opacity: 100%;
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+/***check animation return - END***/
+
+/***icon rotation***/
+.detail-product:hover .selection-rotate {
+    animation: icon-rotate;
+    animation-duration: 0.6s;
+    animation-delay: 0.2s;
+}
+
+@keyframes icon-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/***icon rotation - END***/

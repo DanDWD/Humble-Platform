@@ -1,0 +1,22 @@
+@mixin tablette {
+    @media all and (min-width: map-get($breakpoints, medium-size)) and (max-width: map-get($breakpoints, large-size)) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media all and (min-width: map-get($breakpoints, large-size)) {
+        @content;
+    }
+}
+
+@mixin centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin green-line {
+    border-bottom: solid 3px $tertiarycolor;
+    width: 40px;
+}
