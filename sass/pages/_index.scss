@@ -2,6 +2,14 @@
     background-color: $backgroundGrey;
 }
 
+.nav_menu {
+    @include centering;
+    width: 100%;  
+
+
+
+}
+
 .search-bar {
     @include centering;
     width: 100%;
