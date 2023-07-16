@@ -515,9 +515,13 @@ a {
   font-size: 14px;
   font-weight: normal;
 }
-.header__logo {
+.header__logo1 {
   height: 20px;
   margin-top: 10px;
+}
+.header__logo2 {
+  height: 20px;
+  margin-left: 10px;
 }
 .header__link {
   font-size: 1.3rem;
@@ -909,10 +913,24 @@ a {
 .nav-menu__part1 {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+  width: 50%;
+  padding-left: 0px;
+}
+.nav-menu__part1 li {
+  margin: 15px;
 }
 .nav-menu__part2 {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+  width: 50%;
+  padding-left: 0px;
+}
+.nav-menu__part2 li {
+  margin: 15px;
 }
 
 .search-bar {
