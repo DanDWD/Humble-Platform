@@ -271,7 +271,6 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
   -webkit-appearance: button;
 }
 
@@ -355,7 +354,6 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  appearance: textfield;
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -494,18 +492,26 @@ a {
   width: 100%;
   height: 280px;
 }
-.header__supply h4 {
-  font-size: 18px;
+.header__supply {
+  width: 80%;
 }
 .header__supply ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-weight: normal;
 }
 .header__supply li {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  align-items: center;
+  margin-right: 15px;
+}
+.header__supply h4 {
+  margin-right: 5px;
 }
 .header__logo {
   height: 20px;
