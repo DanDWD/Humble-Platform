@@ -5,9 +5,7 @@
 .nav_menu {
     @include centering;
     width: 100%;  
-
-
-
+    flex-direction: row;
 }
 
 .search-bar {
