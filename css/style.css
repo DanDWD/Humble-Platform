@@ -271,7 +271,6 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
   -webkit-appearance: button;
 }
 
@@ -355,7 +354,6 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  appearance: textfield;
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -516,9 +514,7 @@ a {
   margin-right: 5px;
   font-size: 14px;
   font-weight: normal;
-}
-.header__supply p {
-  margin-top: -5px;
+  color: #7C3057;
 }
 .header__logo1 {
   height: 20px;
@@ -929,7 +925,7 @@ a {
   border-radius: 10px;
   padding: 5px 15px;
   box-shadow: 2px 2px 0 #353535;
-  background-color: rgb(31, 29, 29);
+  background-color: #7C3057;
 }
 .nav-menu__part1 a {
   color: #fff;
@@ -948,7 +944,7 @@ a {
   border-radius: 10px;
   padding: 5px 15px;
   box-shadow: 2px 2px 0 #353535;
-  background-color: rgb(31, 29, 29);
+  background-color: #7C3057;
 }
 .nav-menu__part2 a {
   color: #fff;
