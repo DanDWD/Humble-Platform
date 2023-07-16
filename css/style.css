@@ -512,6 +512,8 @@ a {
 }
 .header__supply h4 {
   margin-right: 5px;
+  font-size: 14px;
+  font-weight: normal;
 }
 .header__logo {
   height: 20px;
@@ -895,6 +897,13 @@ a {
 }
 .main {
   background-color: #f6f6f6;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .search-bar {
