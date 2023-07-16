@@ -15,7 +15,15 @@
         padding-left: 0px;
     }
     &__part1 li {
-        margin: 15px;
+        margin: 5px;
+        border: 0.1em solid #000000;
+        border-radius: 10px;
+        padding: 5px 15px;
+        box-shadow: 2px 2px 0 #353535;
+        background-color: rgb(31, 29, 29);
+    }
+    &__part1 a {
+        color: $whitecolor;
     }
     &__part2 {
         display: flex;
@@ -26,7 +34,15 @@
         padding-left: 0px;
     }
     &__part2 li {
-        margin: 15px;
+        margin: 5px;
+        border: 0.1em solid #000000;
+        border-radius: 10px;
+        padding: 5px 15px;
+        box-shadow: 2px 2px 0 #353535;
+        background-color: rgb(31, 29, 29);
+    }
+    &__part2 a {
+        color: $whitecolor;
     }
 }
 
