@@ -271,7 +271,6 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
   -webkit-appearance: button;
 }
 
@@ -355,7 +354,6 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  appearance: textfield;
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
