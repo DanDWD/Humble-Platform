@@ -1021,6 +1021,7 @@ a {
   justify-content: center;
   flex-direction: row;
   width: 100%;
+  list-style-type: none;
 }
 
 .token4sale-box {
@@ -1028,7 +1029,6 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 20%;
   color: #fff;
   border: 0.1em solid #000;
   border-radius: 10px;
