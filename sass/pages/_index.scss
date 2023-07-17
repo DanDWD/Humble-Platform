@@ -20,7 +20,11 @@
         border-radius: 10px;
         padding: 5px 15px;
         box-shadow: 2px 2px 0 #353535;
-        background-color: #7C3057;
+        background-color: $primarycolor;
+    }
+    &__part1 li:hover {
+        color: $backgroundGrey;
+        background-color: $secondarycolor;
     }
     &__part1 a {
         color: $whitecolor;
@@ -39,7 +43,7 @@
         border-radius: 10px;
         padding: 5px 15px;
         box-shadow: 2px 2px 0 #353535;
-        background-color: #7C3057;
+        background-color: $primarycolor;
     }
     &__part2 a {
         color: $whitecolor;

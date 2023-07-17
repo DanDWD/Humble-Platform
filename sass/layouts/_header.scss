@@ -4,7 +4,8 @@
     width: 100%;
     height: 150px;
     &__supply {
-        width: 80%;
+        width: 100%;
+        background-color: $backgroundGrey;
     }
     &__supply ul {
         display: flex;
