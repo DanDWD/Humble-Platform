@@ -1003,6 +1003,48 @@ a {
   margin-right: 5px;
 }
 
+.buy {
+  background-color: #fff;
+}
+
+.buy-tokens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.token4sale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  color: #fff;
+  border: 0.1em solid #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0 #353535;
+  background-color: #7C3057;
+}
+.token4sale__amount {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.token4sale:hover {
+  color: #f6f6f6;
+  background-color: #AA0C59;
+}
+
+.token4sale-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .search-bar {
   display: flex;
   align-items: center;
