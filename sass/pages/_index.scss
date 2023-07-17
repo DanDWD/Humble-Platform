@@ -44,9 +44,30 @@
         padding: 5px 15px;
         box-shadow: 2px 2px 0 #353535;
         background-color: $primarycolor;
+        &:hover {
+            color: $backgroundGrey;
+            background-color: $secondarycolor;
+        }
     }
     &__part2 a {
         color: $whitecolor;
+    }
+}
+
+.quickview {
+    @include centering;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quickview-token {
+    @include centering;
+    flex-direction: column;
+    width: 20%;
+    &__amount{
+        @include centering;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
