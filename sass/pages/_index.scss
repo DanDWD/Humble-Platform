@@ -104,12 +104,12 @@
     @include centering;
     flex-direction: row;
     width: 100%;  
+    list-style-type: none;
 }
 
 .token4sale-box {
     @include centering;
     flex-direction: column;
-    width: 20%;
     color: $whitecolor;
     border: 0.1em solid $blackcolor;
     border-radius: 10px;
