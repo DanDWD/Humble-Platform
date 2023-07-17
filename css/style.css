@@ -1019,6 +1019,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.token4sale-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 20%;
   color: #fff;
@@ -1027,22 +1035,9 @@ a {
   box-shadow: 2px 2px 0 #353535;
   background-color: #7C3057;
 }
-.token4sale__amount {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-}
-.token4sale:hover {
+.token4sale-box:hover {
   color: #f6f6f6;
   background-color: #AA0C59;
-}
-
-.token4sale-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .search-bar {
