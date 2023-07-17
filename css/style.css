@@ -951,8 +951,35 @@ a {
   box-shadow: 2px 2px 0 #353535;
   background-color: #7C3057;
 }
+.nav-menu__part2 li:hover {
+  color: #f6f6f6;
+  background-color: #AA0C59;
+}
 .nav-menu__part2 a {
   color: #fff;
+}
+
+.quickview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.quickview-token {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+}
+.quickview-token__amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .search-bar {
