@@ -493,7 +493,8 @@ a {
   height: 150px;
 }
 .header__supply {
-  width: 80%;
+  width: 100%;
+  background-color: #f6f6f6;
 }
 .header__supply ul {
   display: flex;
@@ -926,6 +927,10 @@ a {
   padding: 5px 15px;
   box-shadow: 2px 2px 0 #353535;
   background-color: #7C3057;
+}
+.nav-menu__part1 li:hover {
+  color: #f6f6f6;
+  background-color: #AA0C59;
 }
 .nav-menu__part1 a {
   color: #fff;
