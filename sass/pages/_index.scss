@@ -90,6 +90,57 @@
     margin-right: 5px;
 }
 
+.buy {
+    background-color: $whitecolor;
+}
+
+.buy-tokens {
+    @include centering;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.token4sale {
+    @include centering;
+    flex-direction: column;
+    width: 20%;
+    color: $whitecolor;
+    border: 0.1em solid $blackcolor;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 #353535;
+    background-color: $primarycolor;
+    &__amount{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    &:hover {
+        color: $backgroundGrey;
+        background-color: $secondarycolor; 
+    }    
+}
+
+.token4sale-box {
+    @include centering;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .search-bar {
     @include centering;
     width: 100%;
