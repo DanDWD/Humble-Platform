@@ -489,6 +489,8 @@ a {
 }
 
 .pie-chart {
+  background-color: #fff;
+  margin-bottom: -200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -501,7 +503,7 @@ a {
   flex-direction: column;
   position: relative;
   right: 100px;
-  top: 100px;
+  top: 110px;
   z-index: 2;
 }
 .pie-chart__slice2 {
@@ -520,8 +522,8 @@ a {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  left: 120px;
-  top: 10px;
+  left: 130px;
+  bottom: 10px;
   z-index: 2;
 }
 .pie-chart__slice4 {
@@ -531,7 +533,7 @@ a {
   flex-direction: column;
   position: relative;
   left: 0px;
-  top: 50px;
+  bottom: 20px;
   z-index: 2;
 }
 
