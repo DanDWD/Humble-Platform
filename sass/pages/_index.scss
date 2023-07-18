@@ -107,7 +107,7 @@
     width: 100%;  
     list-style-type: none;
     & li {
-        width: 18%;
+        width: 23%;
     }
 }
 
@@ -127,6 +127,7 @@
 }
 
 .list {
+    background-color: $backgroundGrey;
     @include centering;
     flex-direction: column;
 }
@@ -134,6 +135,17 @@
 .list-token {
     @include centering;
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: $whitecolor;
+    border: 0.1em solid $blackcolor;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 #353535;
+    background-color: $primarycolor;
+    &:hover {
+        color: $backgroundGrey;
+        background-color: $secondarycolor; 
+    } 
     &__amount {
         @include centering;
         flex-direction: row;
