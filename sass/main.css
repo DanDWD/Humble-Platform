@@ -1020,8 +1020,12 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   list-style-type: none;
+}
+.token4sale li {
+  width: 18%;
 }
 
 .token4sale-box {
@@ -1034,6 +1038,7 @@ a {
   border-radius: 10px;
   box-shadow: 2px 2px 0 #353535;
   background-color: #7C3057;
+  height: 200px;
 }
 .token4sale-box:hover {
   color: #f6f6f6;
