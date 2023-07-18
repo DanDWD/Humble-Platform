@@ -2,35 +2,42 @@
     @include centering;
     flex-direction: column;
     &__slice1{
-        display: block;
+        @include centering;
+        flex-direction: column;
         position: relative;
-        left:5px;
-        bottom:15px;
+        left: 430px;
+        top: 1350px;
+        z-index: 2;
     }
     &__slice2{
-        display: block;
+        @include centering;
         position: relative;
-        left:15px;
-        bottom:5px;
+        left: 600px;
+        top: 1320px;
+        z-index: 2;
     }
     &__slice3{
-        display: block;
+        @include centering;
         position: relative;
         left:10px;
         bottom:10px;
+        z-index: 2;
     }
     &__slice4{
-        display: block;
+        @include centering;
         position: relative;
         left:20px;
         bottom:20px;
+        z-index: 2;
     }
 }
 
 .piechart {
     @include centering;
+    position: relative;
     width: 400px;
     height: 400px;
+    border: 0.1em solid $blackcolor;
     border-radius: 50%;
     background-image: conic-gradient(
         #FFBF00 70deg, 
