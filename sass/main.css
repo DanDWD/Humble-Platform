@@ -1107,6 +1107,26 @@ a {
   background-color: #AA0C59;
 }
 
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list-token {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.list-token__amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .search-bar {
   display: flex;
   align-items: center;

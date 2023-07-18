@@ -126,7 +126,19 @@
     }  
 }
 
+.list {
+    @include centering;
+    flex-direction: column;
+}
 
+.list-token {
+    @include centering;
+    flex-direction: row;
+    &__amount {
+        @include centering;
+        flex-direction: row;
+    }
+}
 
 
 
