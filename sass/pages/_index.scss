@@ -105,6 +105,9 @@
     flex-direction: row;
     width: 100%;  
     list-style-type: none;
+    & li {
+        width: 18%;
+    }
 }
 
 .token4sale-box {
@@ -115,6 +118,7 @@
     border-radius: 10px;
     box-shadow: 2px 2px 0 #353535;
     background-color: $primarycolor;
+    height: 200px;
     &:hover {
         color: $backgroundGrey;
         background-color: $secondarycolor; 
