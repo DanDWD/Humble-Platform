@@ -1,6 +1,30 @@
 .pie-chart {
     @include centering;
     flex-direction: column;
+    &__slice1{
+        display: block;
+        position: relative;
+        left:5px;
+        bottom:15px;
+    }
+    &__slice2{
+        display: block;
+        position: relative;
+        left:15px;
+        bottom:5px;
+    }
+    &__slice3{
+        display: block;
+        position: relative;
+        left:10px;
+        bottom:10px;
+    }
+    &__slice4{
+        display: block;
+        position: relative;
+        left:20px;
+        bottom:20px;
+    }
 }
 
 .piechart {
@@ -13,28 +37,4 @@
         #9FE2BF 0 125deg, 
         #6495ED 0 235deg,
         #DE3163 0);
-        &__slice1{
-            display: block;
-            position: relative;
-            left:5px;
-            bottom:15px;
-        }
-        &__slice2{
-            display: block;
-            position: relative;
-            left:15px;
-            bottom:5px;
-        }
-        &__slice3{
-            display: block;
-            position: relative;
-            left:10px;
-            bottom:10px;
-        }
-        &__slice4{
-            display: block;
-            position: relative;
-            left:20px;
-            bottom:20px;
-        }
 }
