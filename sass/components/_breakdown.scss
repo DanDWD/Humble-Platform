@@ -1,6 +1,10 @@
+.pie-chart {
+    @include centering;
+    flex-direction: column;
+}
+
 .piechart {
     @include centering;
-    margin-top: 300px;
     display: block;
     position: absolute;
     width: 400px;
@@ -8,6 +12,7 @@
     border-radius: 50%;
     background-image: conic-gradient(
         $primarycolor 70deg, 
-        $secondarycolor 0 235deg, 
+        $secondarycolor 0 125deg, 
+        $backgroundGrey 0 235deg,
         $tertiarycolor 0);
 }
