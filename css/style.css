@@ -504,6 +504,30 @@ a {
   border-radius: 50%;
   background-image: conic-gradient(#FFBF00 70deg, #9FE2BF 0 125deg, #6495ED 0 235deg, #DE3163 0);
 }
+.piechart__slice1 {
+  display: block;
+  position: relative;
+  left: 5px;
+  bottom: 15px;
+}
+.piechart__slice2 {
+  display: block;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+.piechart__slice3 {
+  display: block;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+.piechart__slice4 {
+  display: block;
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
 
 .header {
   display: flex;
