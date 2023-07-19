@@ -158,11 +158,12 @@
         @include centering;
         flex-direction: row;
     }
-    &__heading h4 {
+    &__heading {
         font-size: 18px;
         font-weight: lighter;
     }
     &__icon {
         margin-left: 5px;
+        margin-right: 5px;
     }
 }
