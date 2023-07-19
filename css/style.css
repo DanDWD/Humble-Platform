@@ -1111,10 +1111,11 @@ a {
   justify-content: center;
   flex-direction: row;
 }
-.list-token__heading h4 {
+.list-token__heading {
   font-size: 18px;
   font-weight: lighter;
 }
 .list-token__icon {
   margin-left: 5px;
+  margin-right: 5px;
 }/*# sourceMappingURL=main.css.map */
