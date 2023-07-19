@@ -149,5 +149,20 @@
     &__amount {
         @include centering;
         flex-direction: row;
+    &__variation {
+        @include centering;
+        flex-direction: row;
+    }
+    &__value {
+        @include centering;
+        flex-direction: row;
+    }
+    }
+    &__heading {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    &__icon {
+        margin-left: 5px;
     }
 }
