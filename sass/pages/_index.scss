@@ -1,11 +1,12 @@
 .main {
-    background-color: $backgroundGrey;
+    background-color: $whitecolor;
 }
 
 .nav-menu {
     @include centering;
     width: 100%;  
     flex-direction: row;
+    max-width: 1280px;
     &__part1 {
         display: flex;
         flex-direction: row;
@@ -58,6 +59,8 @@
     @include centering;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .quickview-token {
@@ -129,7 +132,7 @@
 }
 
 .list {
-    background-color: $backgroundGrey;
+    background-color: $whitecolor;
     @include centering;
     flex-direction: column;
 }
