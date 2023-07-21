@@ -1043,6 +1043,7 @@ a {
   font-size: 18px;
   font-weight: normal;
   margin: 50px auto 0px auto;
+  max-width: 1280px;
 }
 
 .buy-tokens {
