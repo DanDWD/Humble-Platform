@@ -31,6 +31,10 @@
     max-width: 1280px;
 }
 
+.footer-heading h2 {
+    color: $secondarycolor;
+}
+
 .footer-box {
     gap: 20px;
     display: flex;
@@ -86,4 +90,8 @@
     & li {
         margin-bottom: 20px;
     }
+}
+
+.footer-box__links h5 {
+    color: $tertiarycolor;
 }
