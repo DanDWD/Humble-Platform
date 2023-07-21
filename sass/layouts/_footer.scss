@@ -16,6 +16,11 @@
         align-items: center;
     }
 }
+.footer-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
 .footer-heading {
     font-size: 18px;
