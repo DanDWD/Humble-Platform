@@ -594,6 +594,7 @@ a {
   width: 100%;
   align-items: center;
   max-width: 1280px;
+  margin: auto;
 }
 
 .footer-heading {
@@ -607,16 +608,20 @@ a {
   gap: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 @media all and (min-width: 768px) and (max-width: 992px) {
   .footer-box {
     gap: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
+    max-width: 1280px;
+    margin: auto;
   }
 }
 @media all and (min-width: 992px) {
@@ -624,8 +629,10 @@ a {
     gap: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
+    max-width: 1280px;
+    margin: auto;
   }
 }
 .footer-box__links {
