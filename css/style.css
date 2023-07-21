@@ -931,6 +931,7 @@ a {
 }
 .main {
   background-color: #fff;
+  margin-top: 50px;
 }
 
 .nav-menu {
@@ -993,7 +994,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 1280px;
   margin: auto;
 }
@@ -1009,6 +1010,10 @@ a {
   border-radius: 10px;
   box-shadow: 2px 2px 0 #353535;
   background-color: #7C3057;
+}
+.quickview-token__heading {
+  font-size: 18px;
+  font-weight: bold;
 }
 .quickview-token__amount {
   display: flex;
@@ -1034,12 +1039,19 @@ a {
   background-color: #fff;
 }
 
+.buy-heading {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 50px auto 0px auto;
+}
+
 .buy-tokens {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
 }
 
 .token4sale {
@@ -1049,6 +1061,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  max-width: 1280px;
   padding-left: 5px;
   padding-right: 5px;
   list-style-type: none;
@@ -1069,6 +1082,10 @@ a {
   background-color: #7C3057;
   height: 200px;
 }
+.token4sale-box__text {
+  font-size: 20px;
+  font-weight: bold;
+}
 .token4sale-box:hover {
   color: #f6f6f6;
   background-color: #AA0C59;
@@ -1080,6 +1097,9 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .list-token {
@@ -1089,6 +1109,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  max-width: 1280px;
   color: #fff;
   border: 0.1em solid #000;
   border-radius: 10px;
