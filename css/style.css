@@ -1186,7 +1186,10 @@ a {
 .list-token__heading {
   font-size: 16px;
   font-weight: bolder;
-  font-weight: lighter;
+}
+.list-token__number {
+  font-size: 16px;
+  font-weight: bolder;
 }
 .list-token__icon {
   margin-left: 5px;
