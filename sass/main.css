@@ -1130,14 +1130,17 @@ a {
 }
 
 .list {
-  background-color: #fff;
+  background-color: #AA0C59;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 1280px;
+  margin: 50px auto 50px auto;
+  border: 0.1em solid #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0 #353535;
 }
 
 .list-token {
@@ -1177,7 +1180,8 @@ a {
   flex-direction: row;
 }
 .list-token__heading {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bolder;
   font-weight: lighter;
 }
 .list-token__icon {
