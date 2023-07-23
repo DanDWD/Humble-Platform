@@ -151,12 +151,17 @@
 }
 
 .list {
-    background-color: $whitecolor;
+    background-color: $secondarycolor;
     @include centering;
     flex-direction: column;
     width: 100%;
+    width: 1280px;
+    padding: 2px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 0.1em solid $blackcolor;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 #353535;
 }
 
 .list-token {
