@@ -1139,8 +1139,12 @@ a {
   width: 1280px;
   margin: 50px auto 50px auto;
   border: 0.1em solid #000;
-  border-radius: 10px;
+  border-radius: 50px 50px 10px 10px;
   box-shadow: 2px 2px 0 #353535;
+}
+
+.lth {
+  border-radius: 50px 50px 10px 10px;
 }
 
 .list-token {
