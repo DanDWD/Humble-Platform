@@ -511,6 +511,7 @@ a {
   height: 400px;
   border: 0.1em solid #000;
   border-radius: 50%;
+  box-shadow: 3px 3px 3px #736e6e;
   background-image: conic-gradient(#FFBF00 70deg, #9FE2BF 0 125deg, #6495ED 0 235deg, #DE3163 0);
 }
 
@@ -594,6 +595,7 @@ a {
   padding: 15px 20px 10px 20px;
   margin-top: 50px;
   margin-bottom: 0px;
+  box-shadow: inset 0px 3px 4px 0px rgba(41, 41, 41, 0.2);
 }
 @media all and (min-width: 768px) and (max-width: 992px) {
   .footer {
@@ -1018,7 +1020,7 @@ a {
   border: 0.1em solid #000;
   border-radius: 10px;
   padding: 13px 15px;
-  box-shadow: 2px 2px 0 #353535;
+  box-shadow: 3px 3px 3px #736e6e;
   background-color: #7C3057;
 }
 .nav-menu__part1 li:hover {
@@ -1047,7 +1049,7 @@ a {
   border: 0.1em solid #000;
   border-radius: 10px;
   padding: 13px 15px;
-  box-shadow: 2px 2px 0 #353535;
+  box-shadow: 3px 3px 3px #736e6e;
   background-color: #7C3057;
 }
 .nav-menu__part2 li:hover {
@@ -1060,6 +1062,11 @@ a {
 
 .nav-menu__part2 li:nth-child(1) {
   padding: 5px 15px;
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .nav-menu__part2 li:nth-child(1) {
+    padding: 13px 15px 5px 15px;
+  }
 }
 
 .quickview {
@@ -1082,7 +1089,7 @@ a {
   color: #fff;
   border: 0.1em solid #000;
   border-radius: 10px;
-  box-shadow: 2px 2px 0 #353535;
+  box-shadow: 3px 3px 3px #736e6e;
   background-color: #7C3057;
 }
 .quickview-token__heading {
@@ -1160,7 +1167,7 @@ a {
   color: #fff;
   border: 0.1em solid #000;
   border-radius: 10px;
-  box-shadow: 2px 2px 0 #353535;
+  box-shadow: 3px 3px 3px #736e6e;
   background-color: #7C3057;
   height: 200px;
 }
@@ -1184,7 +1191,7 @@ a {
   margin: 50px auto 50px auto;
   border: 0.1em solid #000;
   border-radius: 50px 50px 10px 10px;
-  box-shadow: 2px 2px 0 #353535;
+  box-shadow: 3px 3px 3px #736e6e;
 }
 
 .list-token.lth {
