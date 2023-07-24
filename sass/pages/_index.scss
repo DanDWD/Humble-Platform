@@ -70,6 +70,9 @@
     @include tablette {
         padding: 13px 15px 5px 15px;
     }
+    @include desktop {
+        padding: 13px 15px 5px 15px;
+    }
 }
 
 .quickview {
