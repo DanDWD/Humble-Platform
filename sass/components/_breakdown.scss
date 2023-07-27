@@ -7,33 +7,47 @@
         @include centering;
         flex-direction: column;
         position: relative;
-        right: 100px;
-        top: 110px;
+        right: 90px;
+        top: 90px;
         z-index: 2;
+        @include tablette {
+            right: 100px;
+            top: 110px;
+        }
     }
     &__slice2 {
         @include centering;
         flex-direction: column;
         position: relative;
-        left: 80px;
-        bottom: 40px;
+        left: 60px;
+        bottom: 50px;
         z-index: 2;
+        @include tablette {
+            left: 80px;
+            bottom: 40px;
+        }
     }
     &__slice3 {
         @include centering;
         flex-direction: column;
         position: relative;
         left: 130px;
-        bottom: 10px;
+        bottom: 40px;
         z-index: 2;
+        @include tablette {
+            bottom: 10px;
+        }
     }
     &__slice4 {
         @include centering;
         flex-direction: column;
         position: relative;
         left: 0px;
-        bottom: 20px;
+        bottom: 60px;
         z-index: 2;
+        @include tablette {
+            bottom: 20px;
+        }
     }
 }
 
@@ -41,8 +55,8 @@
     @include centering;
     position: relative;
     bottom: 380px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: 0.1em solid $blackcolor;
     border-radius: 50%;
     box-shadow: 3px 3px 3px #736e6e;
@@ -51,4 +65,8 @@
         #9FE2BF 0 125deg, 
         #6495ED 0 235deg,
         #DE3163 0);
+        @include tablette {
+            width: 400px;
+            height: 400px;
+        }
 }
