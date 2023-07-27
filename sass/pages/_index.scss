@@ -168,11 +168,18 @@
     @include tablette {
         flex-wrap: nowrap;
     }
+    @include desktop {
+        flex-wrap: nowrap;
+    }
     & li {
         width: 40%;
         margin: 15px;
         @include tablette {
             width: 23%;
+            flex-wrap: nowrap;
+        }
+        @include desktop {
+            flex-wrap: nowrap;
         }
     }
 }
