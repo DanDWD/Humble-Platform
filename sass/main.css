@@ -466,9 +466,15 @@ a {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  right: 100px;
-  top: 110px;
+  right: 90px;
+  top: 90px;
   z-index: 2;
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .pie-chart__slice1 {
+    right: 100px;
+    top: 110px;
+  }
 }
 .pie-chart__slice2 {
   display: flex;
@@ -476,9 +482,15 @@ a {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  left: 80px;
-  bottom: 40px;
+  left: 60px;
+  bottom: 50px;
   z-index: 2;
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .pie-chart__slice2 {
+    left: 80px;
+    bottom: 40px;
+  }
 }
 .pie-chart__slice3 {
   display: flex;
@@ -487,8 +499,13 @@ a {
   flex-direction: column;
   position: relative;
   left: 130px;
-  bottom: 10px;
+  bottom: 40px;
   z-index: 2;
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .pie-chart__slice3 {
+    bottom: 10px;
+  }
 }
 .pie-chart__slice4 {
   display: flex;
@@ -497,8 +514,13 @@ a {
   flex-direction: column;
   position: relative;
   left: 0px;
-  bottom: 20px;
+  bottom: 60px;
   z-index: 2;
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .pie-chart__slice4 {
+    bottom: 20px;
+  }
 }
 
 .piechart {
@@ -507,12 +529,18 @@ a {
   justify-content: center;
   position: relative;
   bottom: 380px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border: 0.1em solid #000;
   border-radius: 50%;
   box-shadow: 3px 3px 3px #736e6e;
   background-image: conic-gradient(#FFBF00 70deg, #9FE2BF 0 125deg, #6495ED 0 235deg, #DE3163 0);
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .piechart {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 .header {
