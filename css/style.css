@@ -1207,6 +1207,11 @@ a {
   margin-top: 5px;
   list-style-type: none;
 }
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .token4sale {
+    flex-wrap: nowrap;
+  }
+}
 .token4sale li {
   width: 40%;
   margin: 15px;
@@ -1214,7 +1219,6 @@ a {
 @media all and (min-width: 768px) and (max-width: 992px) {
   .token4sale li {
     width: 23%;
-    flex-wrap: nowrap;
   }
 }
 
