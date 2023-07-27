@@ -170,6 +170,7 @@
         margin: 15px;
         @include tablette {
             width: 23%;
+            flex-wrap: nowrap;
         }
     }
 }
