@@ -165,12 +165,14 @@
     padding-right: 0px;
     margin-top: 5px;
     list-style-type: none;
+    @include tablette {
+        flex-wrap: nowrap;
+    }
     & li {
         width: 40%;
         margin: 15px;
         @include tablette {
             width: 23%;
-            flex-wrap: nowrap;
         }
     }
 }
