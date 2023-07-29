@@ -20,6 +20,10 @@
             font-size: 14px;
             margin-top: 0px;
         }
+        @include desktop {
+            font-size: 14px;
+            margin-top: 0px;
+        }
     }
     &__supply li {
         display: flex;
@@ -34,6 +38,9 @@
         font-weight: bold;
         color: #7C3057;
         @include tablette {
+            font-size: 16px;
+        }
+        @include desktop {
             font-size: 16px;
         }
     }
