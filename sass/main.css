@@ -1016,7 +1016,7 @@ a {
   }
 }
 .main {
-  background-color: #fff;
+  /*    background-color: #fff; */
   margin-top: 50px;
 }
 
@@ -1174,7 +1174,7 @@ a {
 }
 
 .buy {
-  background-color: #fff;
+  background-color: unset;
 }
 
 .buy-heading {
