@@ -468,7 +468,7 @@ a {
 }
 
 .pie-chart {
-  background-color: #fff;
+  /*    background-color: $whitecolor; */
   margin-bottom: -300px;
   display: flex;
   align-items: center;
