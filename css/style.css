@@ -586,6 +586,12 @@ a {
     margin-top: 0px;
   }
 }
+@media all and (min-width: 992px) {
+  .header__supply ul {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+}
 .header__supply li {
   display: flex;
   flex-direction: row;
@@ -600,6 +606,11 @@ a {
   color: #7C3057;
 }
 @media all and (min-width: 768px) and (max-width: 992px) {
+  .header__supply h4 {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 992px) {
   .header__supply h4 {
     font-size: 16px;
   }
