@@ -48,6 +48,9 @@
         @include tablette {
             display:block;
         }
+        @include desktop {
+            display:block;
+        }
     }
     &__link {
         font-size: 1.3rem;

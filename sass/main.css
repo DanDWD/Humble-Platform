@@ -618,6 +618,11 @@ a {
     display: block;
   }
 }
+@media all and (min-width: 992px) {
+  .header__logo2 {
+    display: block;
+  }
+}
 .header__link {
   font-size: 1.3rem;
   position: absolute;
